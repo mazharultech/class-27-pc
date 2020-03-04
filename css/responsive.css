@@ -1,0 +1,397 @@
+@media(min-width:992px) and (max-width:1199px){
+    header .bannner_part .banner_item_one .banner_overlay{
+        padding-top: 220px;
+        padding-bottom: 108px;
+    }
+    header .bannner_part .border_item::after{
+        width: 33%;
+        top: 20px;
+    }
+    header .bannner_part .border_item::before{
+        height: 82%;
+        top: 20px;
+    }
+    header .bannner_part .content::after{
+        width: 16%;
+    }
+    header .bannner_part .content::before{
+        width: 25%;
+        top: 20px;
+    }
+    header .bannner_part .text::after{
+        height: 82%;
+        top: 20px;
+    }
+    header .bannner_part .text::before{
+        width: 46px;
+    }
+    header .bannner_part h3{
+        font-size: 27px;
+        padding-bottom: 0;
+    }
+    header .bannner_part h2{
+        font-size: 50px;
+    }
+    header .bannner_part p{
+        padding-top: 7px;
+        padding-bottom: 24px;
+    }
+    header .bannner_part .slick-dots li button{
+        margin: 0 2px;
+    }
+    #about_part p{
+        padding-top: 0;
+        line-height: 20px;
+        padding-bottom: 10px;
+        font-size: 13px;
+    }
+    #testimonial_part .test_bg p{
+        font-size: 13px;
+        line-height: 15px;
+        padding-top: 22px;
+    }
+    #testimonial_part .test_bg .test_overlay{
+        padding: 20px 0 60px;
+    }
+    footer .tweet p{
+        padding-bottom: 18px;
+        line-height: 16px;
+        padding-left: 22px;
+    }
+    footer .ftr_contact p{
+        font-size: 10px;
+        padding-left: 21px;
+        padding-bottom: 0;
+    }
+    footer .ftr_contact ul li a i{
+        font-size: 14px;
+    }
+}
+
+
+
+/*lg ends*/
+@media(max-width:991px){
+  header .navigation{
+        top: 0;
+    }
+    header .navigation .navbar-brand{
+        position: relative;
+        padding: 0 10px;
+        top: 0;
+    
+    }
+    header .navigation .navbar-brand img{
+        height: 50px;
+        padding: 5px 5px;
+    }
+    
+    header .bannner_part .border_item::after,header .bannner_part .border_item::before,header .bannner_part .content::after,header .bannner_part .content::before, header .bannner_part .text::after,header .bannner_part .text::before{
+        display: none;
+    }
+    #counter_part .counter_text,#counter_part .counter_text-right{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    header .navigation{
+        top: 0;
+    }
+    header .navigation .navbar-brand{
+        position: relative;
+        padding: 0 10px;
+        top: 0;
+    
+    }
+    .navbar-expand-md .navbar-collapse{
+        height: 50px;
+    }
+    header .navigation .navbar-brand img{
+        height: 50px;
+        padding: 5px 5px;
+    }
+    header .bannner_part h3{
+        font-size: 21px;
+        padding-bottom: 0;
+    }
+    header .bannner_part h2{
+        font-size: 43px;
+    }
+    header .bannner_part p{
+        padding-top: 2px;
+        padding-bottom: 21px;
+    }
+    header .bannner_part .banner_item_one .banner_overlay{
+        padding-top: 130px;
+        padding-bottom: 70px;
+    }
+    header .bannner_part .slick-dots li button{
+        width: 14px;
+        height: 14px;
+        margin: 0;
+    }
+    #about_part{
+        padding: 42px 0;
+    }
+    #about_part p{
+        padding-top: 0;
+        padding-bottom: 8px;
+        font-size: 13px;
+        line-height: 17px;
+    }
+    #about_part .video a{
+        display: block;
+        margin-top: 24px;
+    }
+    #about_part .video img{
+        width: 100%;
+    }
+    #team_part .team-work figure figcaption p{
+        font-size: 11px;
+        padding: 0 7px 16px;
+        line-height: 15px;
+    }
+    #testimonial_part{
+        margin-top: -105px;
+    }
+    #team_part .slick-list{
+        padding-top: 26px;
+    }
+    #gallary_part .gallary_work{
+        margin-bottom: 46px;
+    }
+    #testimonial_part .test_bg p{
+        font-size: 12px;
+        line-height: 14px;
+        padding-top: 20px;
+    }
+    #testimonial_part .test_bg .test_overlay{
+        padding: 22px 0 63px;
+    }
+    #counter_part .counter_text,#counter_part .counter_text-right{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #membership_part{
+        padding: 60px 0;
+    }
+    #classes .class-item{
+        width: 25%;
+    }
+    footer .days{
+        padding-right: 30px;
+    }
+    footer .flikr{
+        margin-top: 30px;
+        padding-right: 30px;
+    }
+    footer .ftr_contact{
+        margin-top: 30px;
+        padding-left: 30px;
+    }
+    footer .tweet{
+        padding-left: 30px;
+    }
+    footer .flikr a img{
+        width: 100%;
+    }
+}
+@media(max-width:767px){
+    .navbar-nav{
+        padding-top: 20px;
+        border-top: 1px solid rgba(56, 56, 56,0.5);
+        padding-bottom: 20px;
+
+    }
+    .navbar-light .navbar-toggler{
+        padding: 0;
+        border: 0;
+    }
+    .navbar-light .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    header .navigation nav .navbar-nav .nav-item .nav-link{
+        line-height: 30px;
+        font-size: 13px;
+        text-align: center;
+
+    }
+    header .navigation nav .navbar-nav .nav-item .nav-link.active, header .navigation nav .navbar-nav .nav-item .nav-link:hover{
+        background: 0;
+        color: #e23e38;
+    }
+    header .navigation nav .navbar-nav .nav-item .nav-link::after{
+        display: none;
+    }
+    
+    
+}
+@media(min-width:576px) and (max-width:767px){
+    
+    .navbar-nav{
+        padding-top: 20px;
+        border-top: 1px solid rgba(56, 56, 56,0.5);
+        padding-bottom: 20px;
+
+    }
+    .navbar-light .navbar-toggler{
+        padding: 0;
+        border: 0;
+    }
+    .navbar-light .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    header .navigation nav .navbar-nav .nav-item .nav-link{
+        line-height: 30px;
+        font-size: 13px;
+        text-align: center;
+
+    }
+    header .navigation nav .navbar-nav .nav-item .nav-link.active, header .navigation nav .navbar-nav .nav-item .nav-link:hover{
+        background: 0;
+        color: #e23e38;
+    }
+    header .navigation nav .navbar-nav .nav-item .nav-link::after{
+        display: none;
+    }
+    header .bannner_part .banner_item_one .banner_overlay{
+        padding-top: 130px;
+        padding-bottom: 65px;
+    }
+    header .bannner_part h3{
+        padding-bottom: 0;
+        font-size: 18px;
+    }
+    header .bannner_part h2{
+        font-size: 33px;
+    }
+    header .bannner_part p{
+        line-height: 15px;
+        font-size: 13px;
+        padding-bottom: 22px;
+        padding-top: 3px;
+    }
+    header .bannner_part a{
+        font-size: 14px;
+        line-height: 32px;
+        padding: 0 18px;
+        margin: 0 7px;
+    }
+    header .bannner_part .slick-dots li button{
+        margin: 0;
+    }
+    #membership_part h4{
+        margin-top: 30px;
+    }
+    #counter_part h2{
+        font-size: 30px;
+    }
+    #counter_part p{
+        font-size: 13px;
+    }
+    #classes .class-item{
+        width: 33.33%;
+    }
+}
+
+@media(min-width: 320px) and (max-width: 575px){
+    header .navigation .navbar-brand{
+        transform: skewX(-22deg);
+        background: #a5a1a1;
+    }
+    header .navigation .navbar-brand img{
+        height: 40px;
+        transform: skewX(22deg);
+    }
+    header .bannner_part .banner_item_one .banner_overlay{
+        padding: 100px 0 65px;
+    }
+    header .bannner_part h3{
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+    header .bannner_part h2{
+        font-size: 30px;
+    }
+    header .bannner_part p{
+        font-size: 13px;
+        padding-top: 6px;
+        line-height: 15px;
+        padding-bottom: 18px;
+    }
+    header .bannner_part a{
+        font-size: 14px;
+        line-height: 28px;
+        padding: 0 10px;
+        margin: 0 7px;
+    }
+    header .bannner_part .slick-dots li button{
+        width: 13px;
+        height: 13px;
+        margin: 0;
+    }
+    #about_part{
+        padding: 60px 0;
+    }
+    #about_part p{
+        line-height: 16px;
+        font-size: 12px;
+        padding-top: 11px;
+    }
+    #testimonial_part .test_bg p{
+        font-size: 13px;
+        line-height: 16px;
+        padding-top: 22px;
+    }
+    #testimonial_part .test_bg .test_overlay{
+        padding: 20px 0 60px;
+    }
+    .slick-dots li button{
+        width: 11px;
+        height: 11px;
+    }
+    #membership_part h4{
+        margin-top: 30px;
+    }
+    #counter_part h2{
+        font-size: 28px;
+    }
+    #counter_part p{
+        font-size: 13px;
+    }
+    #classes .nav-tabs .nav-item .nav-link{
+        font-size: 11px;
+        line-height: 35px;
+    }
+    #classes .class-item{
+        width: 50%;
+    }
+    #classes .contents{
+        padding: 20px 4px;
+    }
+    footer .flikr a img{
+        width: 100%;
+    }
+    footer h4{
+        padding-top: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
